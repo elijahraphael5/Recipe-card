@@ -1,0 +1,139 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.main{
+    height: auto;
+    width: 35rem;
+    background-color: white;
+    border-radius: 27px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.image img{
+    height: auto;
+    width: 31rem;
+    border-radius: 15px;
+}
+.main h1{
+    padding: 2rem 2rem 1rem 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.main h2{
+    padding: 0 2rem 1rem 2rem;
+    font-size: 0.65rem;
+    font-weight: 500;
+}
+.main_preparation{
+    width: 31rem;
+    height: auto;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 14px;
+}
+.main_preparation p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    padding: 1rem 1.5rem 0.5rem ;
+}.main_preparation ul{
+    padding: 0rem 2.4rem 0.8rem;
+}
+.main_preparation ul li{
+    font-size: 0.75rem;
+}
+.main_preparation ul li span{
+    font-weight: bold;
+}
+.main_Ingridents{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid rgb(68, 68, 68);
+}
+.main_Ingridents p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(332, 51%, 32%);
+}
+.main_Ingridents ul{
+    padding: 0.7rem 1.5rem 0.8rem;
+}
+.main_Ingridents ul li{
+    font-size: 0.75rem;
+    padding: 0.12rem 0;
+}
+.main_Instructions{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid rgb(68, 68, 68);
+}
+.main_Instructions p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(332, 51%, 32%);
+}
+.main_Instructions ol{
+    padding: 0.7rem 1.5rem 0.8rem;
+}
+.main_Instructions ol li{
+    font-size: 0.66rem;
+    padding: 0.12rem 0;
+}
+.food_Nutrition{
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    
+}
+.food_Nutrition p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(332, 51%, 32%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.food_Nutrition h2{
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+}
+.food_Table table{
+    padding-top: 0.7rem;
+    width: calc(100% - 4.8rem);
+    border-collapse: collapse;
+
+}
+.food_Table table tbody tr{
+    border-bottom: 1px solid rgb(68, 68, 68);
+    width: calc(100% - 3rem);
+
+    &:last-child{
+        border-bottom: none;
+    }
+}
+.food_Table table tbody tr td{
+    padding: 0.6rem;
+    font-size: 0.9rem;
+}
+.food_Table table tbody tr td span{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
